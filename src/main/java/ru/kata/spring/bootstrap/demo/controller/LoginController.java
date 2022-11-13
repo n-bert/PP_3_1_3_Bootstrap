@@ -17,9 +17,4 @@ public class LoginController {
     public String redirectToMainPage() {
         return "redirect:/main";
     }
-
-    @PostMapping("/logout")
-    public String logout() {
-        return "redirect:/login?logout";
-    }
 }
